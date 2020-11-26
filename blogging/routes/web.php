@@ -15,6 +15,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/master', function () {
     return view('CustomAuth.master');
 });
+Route::get('/newLogin', function () {
+    return view('CustomAuth.newLogin');
+});
+
+Route::get('/newLogin', function () {
+    return view('CustomAuth.newLogin');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
