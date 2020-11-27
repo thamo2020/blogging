@@ -19,6 +19,14 @@ Route::get('/newLogin', function () {
     return view('CustomAuth.newLogin');
 });
 
+Route::get('/newRegister', function () {
+    return view('CustomAuth.newRegister');
+});
+
+Route::get('/newForget', function () {
+    return view('CustomAuth.newForget');
+});
+
 Route::get('/newLogin', function () {
     return view('CustomAuth.newLogin');
 });

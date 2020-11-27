@@ -1,7 +1,7 @@
 @extends('CustomAuth.master')
 
 @section('title')
-
+Blogging-Loging
 @endsection
 
 @section('styles')
